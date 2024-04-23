@@ -1,0 +1,34 @@
+/* Dropdown.css */
+.dropdown-container {
+    position: relative;
+    width: 200px; /* Adjust as needed */
+  }
+  
+  .dropdown-button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Gray border */
+  }
+  
+  .dropdown-list {
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Gray border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: for better visibility */
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
+  }
+  
